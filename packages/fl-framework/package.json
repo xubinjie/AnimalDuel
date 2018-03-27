@@ -1,0 +1,41 @@
+{
+  "name": "fl-framework",
+  "version": "0.0.1.0",
+  "description": "厦门风领科技有限公司的开发框架.",
+  "author": "zengbinsi",
+  "main": "main.js",
+  "main-menu": {
+    "风领插件/fl-framework/引入fl.d.ts描述文件": {
+      "message": "fl-framework:import-fl-d-ts"
+    },
+    "风领插件/fl-framework/替换TS和JS组件模板": {
+      "message": "fl-framework:import-ts-js-newfile-template"
+    },
+    "风领插件/fl-framework/初始化项目目录结构": {
+      "message": "fl-framework:init-assets-dir"
+    },
+    "风领插件/fl-framework/导入框架资源到项目": {
+      "message": "fl-framework:import-res"
+    },
+    "风领插件/关于插件": {
+      "message": "fl-framework:about"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "fl-framework",
+    "width": 700,
+    "height": 400
+  },
+  "runtime-resource": {
+    "path": "runtime-resource",
+    "name": "assets"
+  },
+  "reload": {
+    "ignore": [
+      "runtime-resource/**/*"
+    ]
+  },
+  "dependencies": {}
+}
